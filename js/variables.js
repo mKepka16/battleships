@@ -1,0 +1,12 @@
+const BOARD_SIZE = 10;
+const WARSHIPS = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1];
+let enemyBoard = [];
+let playerBoard = [];
+let choseTurn = true;
+let isDirectionVertical = true;
+let chosenWarship = 4;
+let fieldType = 'badPlace';
+let lastElement = null;
+let winner = null;
+let turn = 'player';
+const COMPUTER_SPEED = 1000;

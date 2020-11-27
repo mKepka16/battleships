@@ -1,0 +1,25 @@
+.warshipsSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 16vmin;
+}
+
+.row {
+    display: flex;
+    margin: 1vmin 1vmin;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.chosen .field {
+    background: rgb(41, 165, 223);
+}
+
+.row:hover .field {
+    background: rgb(149, 206, 233);
+}
+
+.chosen:hover .field {
+    background: rgb(41, 165, 223);
+}
