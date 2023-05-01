@@ -1,74 +1,80 @@
 /* Game */
 .game {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Board */
 .board {
-    width: 40vmin;
-    height: 40vmin;
-    display: flex;
-    flex-wrap: wrap;
+  width: 40vmin;
+  height: 40vmin;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .board-title {
-    font-size: 3vmin;
-    font-family: Helvetica, sans-serif;
+  font-size: 3vmin;
+  font-family: Helvetica, sans-serif;
 }
 
 .board-with-title {
-    padding: 5vmin;
+  padding: 5vmin;
 }
 
 .field {
-    width: 4vmin;
-    height: 4vmin;
-    border: .5vmin solid black;
-    text-align: center;
-    line-height: 3vmin;
-    font-size: 3vmin;
-    cursor: pointer;
+  width: 4vmin;
+  height: 4vmin;
+  border: 0.5vmin solid black;
+  text-align: center;
+  line-height: 3vmin;
+  font-size: 3vmin;
+  cursor: pointer;
 }
 
 .reserved {
-    background: rgb(199, 193, 193);
+  background: rgb(199, 193, 193);
 }
 /* Enemy */
 
 .enemyBoard .warship {
-    background: #d83706;
+  background: #d83706;
 }
 
 /* Player */
 
 .playerBoard .warship {
-    background: rgb(253, 238, 29);
+  background: rgb(253, 238, 29);
 }
 
 /* Hover effect */
 .mouse-enter-field {
-    background: pink !important;
+  background: pink !important;
 }
 
 .playerBoard .goodPlace {
-    background: chartreuse;
+  background: chartreuse;
 }
 
 .playerBoard .badPlace {
-    background: rgb(214, 50, 8);
+  background: rgb(214, 50, 8);
 }
 
 /* Start midgame button */
 .midgameButton {
-    background-color: white;
-    width: 20vmin;
-    height: 6vmin;
-    align-self: center;
-    font-size: 2vmin;
-    cursor: pointer;
+  background-color: white;
+  width: 20vmin;
+  height: 6vmin;
+  align-self: center;
+  font-size: 2vmin;
+  cursor: pointer;
 }
 
 .midgameButton:hover {
-    background-color: rgb(165, 236, 236);
+  background-color: rgb(165, 236, 236);
+}
+
+p.hint {
+  font-size: 18px;
+  margin: 20px;
+  font-family: Helvetica, sans-serif;
 }
